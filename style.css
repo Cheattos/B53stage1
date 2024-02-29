@@ -1,0 +1,48 @@
+.btn-dumbways {
+    background-color: #EC4D37;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #EC4D37;
+    font-weight: bold;
+}
+
+
+@media (min-width:900px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 899px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        /* right: -100%; */
+        width: 70%;
+        height: 100%;
+        background-color: #f8f9fa;
+        z-index: 99999;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 1rem 0;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+}
